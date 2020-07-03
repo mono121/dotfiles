@@ -19,7 +19,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 #alias
-alias choukai='ssh 130.34.100.46 -l onodera -Y'
+alias column='column -s, -t'
 
 #docker-alias
 alias drm='docker rm'
@@ -34,4 +34,11 @@ alias dpull='docker pull'
 alias drun='docker run'
 alias dcommit='docker commit'
 
+#export PS1="\n"$PS1
+#if [ $UID -eq 0 ]; then
+#	PS1="\n\[\e[36m\]\w\n\[\e[00m\]\$ "
+#   # PS1="\n\[\033[31m\]\u@\h\[\033[00m\]\n\[\033[01m\]\w\[\033[00m\]\\$ "
+#else
+#    PS1="\n\[\e[36m\]\w\n\[\e[00m\]\$ "
+#fi
 
