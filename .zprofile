@@ -1,1 +1,0 @@
-/Users/onoderashiryu/.zprezto/runcoms/zprofile
